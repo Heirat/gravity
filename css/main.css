@@ -57,30 +57,35 @@ h1 {
 }
 
 h2 {
-  font-size: 23px;
+  font-size: 24px;
 }
 @media screen and (min-width: 768px) {
   h2 {
-    font-size: 27.6px;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 992px) {
   h2 {
-    font-size: 33.1px;
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 1200px) {
   h2 {
-    font-size: 39.8px;
+    font-size: 36px;
   }
 }
 
 h4 {
-  font-size: 20.1px;
+  font-size: 20px;
 }
 @media screen and (min-width: 768px) {
   h4 {
-    font-size: 23px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h4 {
+    font-size: 24px;
   }
 }
 
@@ -391,6 +396,11 @@ h4 {
   width: 65px;
   height: 65px;
   z-index: 4;
+}
+
+.footer__text {
+  color: #fff;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1200px) {
